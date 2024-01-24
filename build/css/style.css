@@ -671,6 +671,14 @@ video {
   max-width: 20rem;
 }
 
+.scroll-mt-20{
+  scroll-margin-top: 5rem;
+}
+
+.scroll-mt-10{
+  scroll-margin-top: 2.5rem;
+}
+
 .flex-row{
   flex-direction: row;
 }
@@ -1065,6 +1073,10 @@ video {
     margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .sm\:scroll-smooth{
+    scroll-behavior: smooth;
+  }
+
   .sm\:pl-12{
     padding-left: 3rem;
   }
@@ -1102,6 +1114,18 @@ video {
   .md\:text-sm{
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+}
+
+@media (min-aspect-ratio: 3/2){
+  .widescreen\:section-min-height{
+    min-height: calc(100vh - 36px)
+  }
+}
+
+@media (min-aspect-ratio: 1/2){
+  .tallscreen\:section-min-height{
+    min-height: calc(100vh - 36px)
   }
 }
 
