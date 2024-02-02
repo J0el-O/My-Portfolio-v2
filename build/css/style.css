@@ -671,12 +671,12 @@ video {
   max-width: 20rem;
 }
 
-.scroll-mt-20{
-  scroll-margin-top: 5rem;
-}
-
 .scroll-mt-10{
   scroll-margin-top: 2.5rem;
+}
+
+.scroll-mt-20{
+  scroll-margin-top: 5rem;
 }
 
 .flex-row{
@@ -779,6 +779,10 @@ video {
 .bg-stone-800{
   --tw-bg-opacity: 1;
   background-color: rgb(41 37 36 / var(--tw-bg-opacity));
+}
+
+.bg-transparent{
+  background-color: transparent;
 }
 
 .p-3{
@@ -971,6 +975,11 @@ video {
   color: rgb(168 162 158 / var(--tw-text-opacity));
 }
 
+.text-stone-600{
+  --tw-text-opacity: 1;
+  color: rgb(87 83 78 / var(--tw-text-opacity));
+}
+
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -993,9 +1002,24 @@ video {
   transition-duration: 150ms;
 }
 
+.hover\:bg-lime-400:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(163 230 53 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-lime-600:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(101 163 13 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-lime-800:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(63 98 18 / var(--tw-bg-opacity));
+}
+
+.hover\:text-black:hover{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .hover\:text-zinc-300:hover{
@@ -1005,6 +1029,10 @@ video {
 
 .hover\:opacity-90:hover{
   opacity: 0.9;
+}
+
+.hover\:opacity-35:hover{
+  opacity: 0.35;
 }
 
 .focus\:outline-none:focus{
@@ -1079,6 +1107,14 @@ video {
 
   .sm\:pl-12{
     padding-left: 3rem;
+  }
+
+  .sm\:pr-8{
+    padding-right: 2rem;
+  }
+
+  .sm\:text-center{
+    text-align: center;
   }
 
   .sm\:text-3xl{
