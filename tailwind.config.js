@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         ibm: ['IBM Plex Mono'],
-        raleway: ['Raleway']
+        raleway: ['Raleway'],
+        archivo: ['Archivo']
       },
       screens: {
         'widescreen':{ 'raw': '(min-aspect-ratio: 3/2)'}, 

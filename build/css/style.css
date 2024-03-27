@@ -766,9 +766,14 @@ video {
   border-color: transparent;
 }
 
-.bg-black{
+.bg-\[\#080808\]{
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(8 8 8 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#1b1b1b\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(27 27 27 / var(--tw-bg-opacity));
 }
 
 .bg-lime-700{
@@ -870,6 +875,10 @@ video {
   text-align: right;
 }
 
+.font-archivo{
+  font-family: Archivo;
+}
+
 .font-ibm{
   font-family: IBM Plex Mono;
 }
@@ -915,6 +924,21 @@ video {
   font-weight: 600;
 }
 
+.text-\[\#000aff\]{
+  --tw-text-opacity: 1;
+  color: rgb(0 10 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#9c9c9c\]{
+  --tw-text-opacity: 1;
+  color: rgb(156 156 156 / var(--tw-text-opacity));
+}
+
+.text-\[\#ffa217\]{
+  --tw-text-opacity: 1;
+  color: rgb(255 162 23 / var(--tw-text-opacity));
+}
+
 .text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -923,11 +947,6 @@ video {
 .text-cyan-100{
   --tw-text-opacity: 1;
   color: rgb(207 250 254 / var(--tw-text-opacity));
-}
-
-.text-cyan-300{
-  --tw-text-opacity: 1;
-  color: rgb(103 232 249 / var(--tw-text-opacity));
 }
 
 .text-gray-400{
@@ -960,11 +979,6 @@ video {
   color: rgb(255 237 213 / var(--tw-text-opacity));
 }
 
-.text-orange-500{
-  --tw-text-opacity: 1;
-  color: rgb(249 115 22 / var(--tw-text-opacity));
-}
-
 .text-slate-800{
   --tw-text-opacity: 1;
   color: rgb(30 41 59 / var(--tw-text-opacity));
@@ -985,6 +999,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\#2ab090\]{
+  --tw-text-opacity: 1;
+  color: rgb(42 176 144 / var(--tw-text-opacity));
+}
+
 .shadow-2xl{
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -1002,19 +1021,9 @@ video {
   transition-duration: 150ms;
 }
 
-.hover\:bg-lime-400:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(163 230 53 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-lime-600:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(101 163 13 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-lime-800:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(63 98 18 / var(--tw-bg-opacity));
 }
 
 .hover\:text-black:hover{
@@ -1029,10 +1038,6 @@ video {
 
 .hover\:opacity-90:hover{
   opacity: 0.9;
-}
-
-.hover\:opacity-35:hover{
-  opacity: 0.35;
 }
 
 .focus\:outline-none:focus{
